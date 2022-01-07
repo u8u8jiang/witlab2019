@@ -77,7 +77,13 @@ git revert HEAD
 * autodeploy  
 * container  
 
-# issue
+> 
+* GIT入門原理 https://ithelp.ithome.com.tw/articles/10190453
+* 為你自己學 Git https://gitbook.tw/
+* 寫給大家的 Git 教學 https://www.slideshare.net/littlebtc/git-5528339
+* 連猴子都能懂的GIT入門指南 https://backlog.com/git-tutorial/tw/
+
+# Some issue
 ```Bash
 # 1.檔名大小寫不對
 git mv ANS.txt ans.txt

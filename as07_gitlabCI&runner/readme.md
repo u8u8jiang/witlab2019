@@ -85,5 +85,8 @@ gitlab-runner register --tls-ca-file /Users/TMCHANG/cicd/wistron-root.crt
 
 cd gitlab-runner  
 vi vonfig.toml  
+
+#Start GitLab-Runner
+gitlab-runner install --working-directory=/Users/TMCHANG/cicd/gitlab-runner
 ```
 
