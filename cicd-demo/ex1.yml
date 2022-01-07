@@ -1,0 +1,11 @@
+stages:
+  - build
+  - test
+
+job1:
+  stage: build
+  script: "execute-script-for-job1"
+
+job2:
+  stage: test
+  script: "execute-script-for-job2"
