@@ -4,8 +4,8 @@ Q. 如何透過GitLab做CICD，將其作為container image，上傳至harbor?
 
 ## Introdution of CI/CD  
 
-![](.\image\gitlabCI01.png)  
-![](.\image\gitlabCI02.png)  
+![](image\gitlabCI01.png)  
+![](image\gitlabCI02.png)  
 
 ## Cloud-Native Application  
 
@@ -25,20 +25,11 @@ Q. 如何透過GitLab做CICD，將其作為container image，上傳至harbor?
 5. Testing phase: integration
 6. Delivery & Maintenance phase  
 
-![](.\image\gitlabCI03.png)  
-![](.\image\gitlabCI04.png)  
-![](.\image\gitlabCI05.png)  
-![](.\image\gitlabCI06.png)  
 
-
-
-
-
-
-
-
-
-
+![](image\gitlabCI03.png)
+![](image\gitlabCI04.png)
+![](image\gitlabCI05.png)
+![](image\gitlabCI06.png)
 
 
 

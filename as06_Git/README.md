@@ -19,8 +19,10 @@ git add
 git commit -m "add @@"  
 git push
 ```
-![](/image/git01.png)
-![](/image/git02.png)
+
+![alt text](image/git01.png "Title Text")
+![alt text](image/git02.png "Title Text")
+
 
 * GIT是「分散式」的「版本控制」工具  
     * 輔助「偕同開發」的工具
