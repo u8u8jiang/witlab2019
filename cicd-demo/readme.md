@@ -14,4 +14,6 @@ Pipelines comprise
 * variables  
 * cache  
 
-
+![](.\image\configuration_1.png)
+![](.\image\configuration_2.png)
+![](.\image\configuration_3.png)
