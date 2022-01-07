@@ -46,9 +46,9 @@ Pipelines comprise
 * cache  
 
 
-![alt text](image/configuration_1.png "Title Text")
-![alt text](image/configuration_2.png "Title Text")
-![alt text](image/configuration_3.png "Title Text")
+![alt text](image/configuration_1.png "Title Text")  
+![alt text](image/configuration_2.png "Title Text")  
+![alt text](image/configuration_3.png "Title Text")  
 
 
 * image & service: use for job  
