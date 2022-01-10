@@ -38,3 +38,38 @@ Pipelines comprise
 * hand to repository
 * check GitLab pipeline ( CICD > pipelines )
 
+# Lab2
+* create gitlab-ci.yml
+  - create the info of project: project name, version  
+  - produce: image name, image tag  
+![alt text](image/cicd01.png "Title Text")
+
+* use Marven build jar file
+* use Docker build docker image
+* Push image file to harbor
+
+```bash
+# expand CICD > variables
+# add HARBOR_USER/ HARBOR_PASSWORD
+
+# Edit “gitlab-ci.yml”, change harbor directory
+docker tag ${DOCKER_IMAGE_NAME}:${DOCKER_IMAGE_TAG} harbork8s.
+wistron.com/cicd-demo/
+10503120/${DOCKER_IMAGE_NAME}:${DOCKER_IMAGE_TAG}
+docker push harbor-k8s.wistron.com/cicd-demo/
+10503120/${DOCKER_IMAGE_NAME}:${DOCKER_IMAGE_TAG}
+
+# Follow beloe command
+git add .
+git commit -m "change gitlab-ci.yml"
+git push
+```
+* check CICD>pipeline: click "running" job
+* check pipeline status  
+* check Harbor about image upload
+
+
+
+
+
+
