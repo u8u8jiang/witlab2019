@@ -2,7 +2,7 @@ image: docker:stable
 stages:
   - Build image
 build:
-  stages: Build image
+  stage: Build image
   tags:
     - runner01
   script: 
