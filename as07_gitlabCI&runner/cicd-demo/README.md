@@ -26,9 +26,15 @@ Pipelines comprise
 * only & except: 限制執行的branch, 對於deploy尤其重要。  
 * tag: 設定執行的runner名稱
 * artifacts: attach to specfic file or directry on some job  
-  - artifacts:paths  
+  - *artifacts:paths*  #要加那些特定檔案或目錄在job上
   - artifacts:when  :on_success, on_failure, always
   - artifacts:expire_in
 
 
+
+
+# Lab1: 
+* create .gitlab-ci.yml file
+* hand to repository
+* check GitLab pipeline
 
