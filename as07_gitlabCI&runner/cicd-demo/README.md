@@ -36,5 +36,5 @@ Pipelines comprise
 # Lab1: 
 * create .gitlab-ci.yml file
 * hand to repository
-* check GitLab pipeline
+* check GitLab pipeline ( CICD > pipelines )
 

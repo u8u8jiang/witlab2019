@@ -71,6 +71,8 @@ docker-build:
     - echo $DOCKER_IMAGE_NAME
     - echo $DOCKER_IMAGE_TAG
     - docker build ${build_arg} -t ${DOCKER_IMAGE_NAME}:${DOCKER_IMAGE_TAG} --rm=true .
-    - docker tag ${DOCKER_IMAGE_NAME}:${DOCKER_IMAGE_TAG} harbor-k8s.wistron.com/tm/${DOCKER_IMAGE_NAME}:${DOCKER_IMAGE_TAG}
+    - docker tag ${DOCKER_IMAGE_NAME}:${DOCKER_IMAGE_TAG} harbor-k8s.wistron.com/witlab2019/as07_gitlabCI&runner/10_api_design_guide/${DOCKER_IMAGE_NAME}:${DOCKER_IMAGE_TAG}
     - echo "$HARBOR_PASSWORD" | docker login -u "$HARBOR_USER" --password-stdin harbor-k8s.wistron.com
-    - docker push harbor-k8s.wistron.com/tm/${DOCKER_IMAGE_NAME}:${DOCKER_IMAGE_TAG}
+    - docker push harbor-k8s.wistron.com/witlab2019/as07_gitlabCI&runner/10_api_design_guide/${DOCKER_IMAGE_NAME}:${DOCKER_IMAGE_TAG}
+
+    
