@@ -4,6 +4,6 @@ stages:
 build:
   stage: Build image
   tags:
-    - shared-runner01
+    - wzs-runner01
   script: 
     - docker info
