@@ -1,0 +1,76 @@
+variables:
+
+services:
+  - name: docker:dind
+    entrypoint: []
+    command: ["--insecure-registry=harbor-k8s.wistron.com"]
+
+stages:
+  - pre_build
+  - maven_build
+  - docker_build
+
+pre-build:
+  image: centos:7
+  stage: pre_build
+  tags:
+    - runner01
+  variables:
+    GIT_SUBMODULE_STRATEGY: recursive
+  before_script:
+    - . ci-function.sh
+    - get_project_info
+  script:
+    - write_to_env_file
+    - write_to_build_vars
+  artifacts:
+    paths:
+      - .env
+      - build-vars.sh
+    when: always
+    expire_in: 1 days  
+
+maven-build:
+  image: maven:3.6.2-jdk-8
+  stage: maven_build
+  tags: 
+    - runner01
+  variables:
+    GIT_SUBMODULE_STRATEGY: recursive
+    MAVEN_OPTS: "-Djava.awt.headless=true -Dmaven.repo.local=.m2/repository"
+    MAVEN_CLI_OPTS: "-s .m2/settings.xml -B "
+
+  before_script:
+    - source build-vars.sh
+    - mvn --version
+
+  script:
+    - mvn clean
+    - mvn package
+
+  artifacts:
+    paths:
+      - target/*.jar
+    when: always
+    expire_in: 1 days
+
+docker-build:
+  image: docker:latest
+  stage: docker_build
+  variables:
+    GIT_SUBMODULE_STRATEGY: recursive
+  tags: 
+    - runner01
+  before_script:
+    - source build-vars.sh
+    - export DOCKER_IMAGE_NAME=${BUILD_IMAGE_NAME}
+    - export DOCKER_IMAGE_TAG=${BUILD_IMAGE_TAG}
+    - build_arg=$(cat .env | sed -e '/^#/d' -e '/^\s*$/d' | awk -F= '{print "--build-arg",$0 }' | sed -e ':a;N;$!ba;s/\n/ /g')
+  script:
+    - docker info
+    - echo $DOCKER_IMAGE_NAME
+    - echo $DOCKER_IMAGE_TAG
+    - docker build ${build_arg} -t ${DOCKER_IMAGE_NAME}:${DOCKER_IMAGE_TAG} --rm=true .
+    - docker tag ${DOCKER_IMAGE_NAME}:${DOCKER_IMAGE_TAG} harbor-k8s.wistron.com/tm/${DOCKER_IMAGE_NAME}:${DOCKER_IMAGE_TAG}
+    - echo "$HARBOR_PASSWORD" | docker login -u "$HARBOR_USER" --password-stdin harbor-k8s.wistron.com
+    - docker push harbor-k8s.wistron.com/tm/${DOCKER_IMAGE_NAME}:${DOCKER_IMAGE_TAG}
