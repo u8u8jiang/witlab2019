@@ -1,9 +1,9 @@
 image: docker:stable
-stage:
-  - build image
+stages:
+  - Build image
 build:
-  tag:
-    - tarunner
-  stage: Build image
+  stages: Build image
+  tags:
+    - runner01
   script: 
     - docker info
