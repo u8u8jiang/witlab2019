@@ -26,16 +26,29 @@ eg. create a message *Person* that has:
 * string(last name)
 * bytes(small picture)
 * bool(profile verified)
-* float(height)
-
+* float(height)  
+:lollipop: 1-scalar-types.proto  
 
 ## tags
 * Tags number from 1 to 15 use 1 byte in space, so use them for frequently populated fields  
 * Tags numbered from 16 to 2047 use 2 bytes  
 * There’s a concept of reserved tag that we’ll see in the advanced lectures  
+:lollipop: 2-repeated-fields.proto
 
+## comments  
+* //   this is a comment
+* /* ... */ this is a multiline comment
+:lollipop: 3-comments.proto  
 
+## Default values for fields   
+All fields, if not specified or unknown, will take a default value:  
+* bool: false  
+* number ( int32 , etc..): 0  
+* string : empty string  
+* bytes : empty bytes  
+* enum : first value  
+* repeated : empty list
 
-
-
+In proto3, there is no required or optional field  
+:lollipop: 4-enums.proto  
 
