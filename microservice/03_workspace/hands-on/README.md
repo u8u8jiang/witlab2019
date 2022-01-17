@@ -37,7 +37,7 @@ eg. create a message *Person* that has:
 
 ## comments  
 * //   this is a comment
-* /* ... */ this is a multiline comment
+* /* ... */ this is a multiline comment  
 :lollipop: 3-comments.proto  
 
 ## Default values for fields   
