@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+// {SYSTEM}.{MODULE}.{VERSION}
+package witlab.sf02.v1;
+
+option java_package = "wistron.witlab.sf02.v1";
+option java_multiple_files = true;
+option java_outer_classname = "DeptProto";
+
+import "project.proto";
+import "user.proto";
+
+message Department {
+    User manager = 1;
+    repeated User staffs = 2;
+    repeated Project projects = 3;
+}
+

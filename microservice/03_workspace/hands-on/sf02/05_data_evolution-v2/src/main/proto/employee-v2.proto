@@ -1,0 +1,16 @@
+syntax = "proto3";
+
+// {SYSTEM}.{MODULE}.{VERSION}
+package witlab.sf02.v1;
+
+option java_package = "witlab.sf02.v1";
+option java_multiple_files = true;
+option java_outer_classname = "EmployeeProto";
+
+message Employee {
+    string id = 1;
+    string first_name = 2;
+    string last_name = 3;
+    string phone = 4;      // added@v2
+}
+

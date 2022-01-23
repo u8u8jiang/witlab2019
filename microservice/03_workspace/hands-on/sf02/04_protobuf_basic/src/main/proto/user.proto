@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+// {SYSTEM}.{MODULE}.{VERSION}
+package witlab.sf02.v1;
+
+option java_outer_classname = "UserProto";
+
+message User {
+    int32 id = 1;
+    bool is_active = 2;
+    string name = 3;
+    repeated int32 followers = 4;
+}
+

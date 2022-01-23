@@ -1,0 +1,18 @@
+syntax = "proto3";
+// {SYSTEM}.{MODULE}.{VERSION}
+package witlab.sf02.v1;
+option java_outer_classname = "ProjectProto";
+import "user.proto";
+
+message Project {
+    string project_id = 1;
+    User project_manager = 2;
+    ProjectStatus status = 3;
+}
+
+enum ProjectStatus {
+    UNKOWN = 0;
+    START = 1;
+    PENDING = 2;
+    CLOSE = 3;
+}

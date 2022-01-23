@@ -1,0 +1,23 @@
+package witlab.sf02;
+
+import com.google.protobuf.util.JsonFormat;
+import witlab.sf02.v1.Employee;
+import java.io.FileInputStream;
+
+public class EmployeeV1Read {
+    public static void main(String[] args) throws Exception {
+        String[] v1EmployeeIdRange = new String[] {"001","002","003"};
+
+        for(String empId : v1EmployeeIdRange) {
+            FileInputStream inputStream = new FileInputStream(empId+".bin");
+            Employee employee = Employee.parseFrom(inputStream);
+
+            // print message as JSON
+            String jsonString = JsonFormat.printer().print(employee);
+            System.out.println(jsonString);
+
+            inputStream.close();
+        }
+
+    }
+}
