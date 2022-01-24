@@ -1,0 +1,49 @@
+syntax = "proto3";
+// {SYSTEM}.{MODULE}.{VERSION}
+package witlab.sf03.v1;
+option java_outer_classname = "PhotoProto";
+option java_package = "witlab.sf03.v1";
+option java_multiple_files = true;
+
+// define service api
+service PhotoService {
+    // Unary
+    rpc UploadPhoto(UploadPhotoRequest) returns (UploadPhotoResponse) {};
+}
+
+
+message UploadPhotoRequest {
+    repeated Photo photos = 1;
+}
+
+message Photo {
+    map<string, string> meta = 1;
+    PhotoFormat format = 2;
+    bytes content = 3;
+
+    enum PhotoFormat {
+        UNKNOWN = 0;
+        BMP = 1;        // Bitmap
+        JPG = 2;        // JPEG images
+        TIFF = 3;       // TIF images
+        PNG = 4;        // PNG images
+    }
+}
+
+message UploadPhotoResponse {
+    repeated UploadStatus results = 1;
+}
+
+message UploadStatus {
+    map<string, string> meta = 1;
+    UploadStatusCode code = 2;
+    string error_message = 3;
+
+    enum UploadStatusCode {
+        UNKNOWN = 0;
+        OK = 1;
+        FAIL = 2;
+    }
+}
+
+

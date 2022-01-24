@@ -1,0 +1,26 @@
+syntax = "proto3";
+// {SYSTEM}.{MODULE}.{VERSION}
+package witlab.sf03.v1;
+option java_outer_classname = "GreetProto";
+option java_package = "witlab.sf03.v1";
+option java_multiple_files = true;
+
+message Greeting {
+    string first_name = 1;
+    string last_name = 2;
+}
+
+message GreetRequest {
+    Greeting greeting = 1;
+}
+
+message GreetResponse {
+    string result = 1;
+}
+
+// define service api
+service GreetService {
+    // Unary
+    rpc Greet(GreetRequest) returns (GreetResponse) {};
+}
+
