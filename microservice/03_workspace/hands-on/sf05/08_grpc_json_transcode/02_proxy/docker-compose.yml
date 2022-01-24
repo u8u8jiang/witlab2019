@@ -1,0 +1,13 @@
+version: '2'
+
+services:
+  envoy:
+    image: harbor-k8s.wistron.com/witlab/envoy
+    container_name: envoy
+    ports:
+      - '9901:9901'
+      - '5438:5438'
+    volumes:
+      - './envoy-config.yml:/etc/envoy/envoy.yaml:ro'
+      - '../target/generated-resources/protobuf/descriptor-sets/json-to-grpc.pb:/data/json-to-grpc.pb:ro'
+

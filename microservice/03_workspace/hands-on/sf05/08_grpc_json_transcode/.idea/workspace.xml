@@ -1,0 +1,736 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="0ae78afc-3cc2-46df-9033-d19cf4d47326" name="Default Changelist" comment="" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="07_grpc_json_transcode" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2244">
+              <caret line="132" column="58" selection-start-line="132" selection-start-column="43" selection-end-line="132" selection-end-column="58" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>li</find>
+      <find>FieldMaskTree</find>
+      <find>toString</find>
+      <find>List</find>
+      <find>ListOperationsRequest</find>
+      <find>service</find>
+      <find>getMessage</find>
+    </findStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/main/java/com/wistron/servicefabric/greeting/server/GreetServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wistron/servicefabric/greeting/client/GreetingClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wistron/servicefabric/greeting/server/GreetingServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wistron/witlab/greeting/client/GreetingClient.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wistron/witlab/greeting/server/GreetingServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wistron/witlab/greeting/server/GreetServiceImpl.java" />
+        <option value="$PROJECT_DIR$/.idea/compiler.xml" />
+        <option value="$PROJECT_DIR$/.idea/.name" />
+        <option value="$PROJECT_DIR$/src/main/proto/greet.proto" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wistron/greet/server/GreetServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wistron/greet/server/GreetServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wistron/greet/client/GreetClient.java" />
+        <option value="$PROJECT_DIR$/src/main/proto/customer_service.proto" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wistron/witlab/TestMerge.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/wistron/witlab/ValueTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wistron/witlab/reservation/server/ReservationRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wistron/witlab/reservation/server/ReservationRepo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wistron/witlab/reservation/server/MemReservationRepo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wistron/witlab/reservation/client/ReservationClient.java" />
+        <option value="$PROJECT_DIR$/run-envoy-docker.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wistron/witlab/reservation/server/ReservationServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wistron/witlab/reservation/server/ReservationApp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wistron/witlab/reservation/utils/PrintFileDescriptor.java" />
+        <option value="$PROJECT_DIR$/src/main/proto/reservation_service.proto" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wistron/witlab/reservation/server/ReservationServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/proto/json_transcode.proto" />
+        <option value="$PROJECT_DIR$/src/main/proto/grpc_to_rest.proto" />
+        <option value="$PROJECT_DIR$/src/main/proto/training.proto" />
+        <option value="$PROJECT_DIR$/src/main/java/witlab/sf05/v1/server/MessagingServer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/witlab/sf05/v1/server/MessagingServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/proto/json_to_grpc.proto" />
+        <option value="$PROJECT_DIR$/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/envoy-config.yml" />
+        <option value="$PROJECT_DIR$/03_web/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/03_web/html/index.html" />
+        <option value="$PROJECT_DIR$/02_proxy/run-envoy-docker.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/witlab/sf05/v1/server/Json2GrpcApp.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/witlab/sf05/v1/utils/PrintFileDescriptor.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/proto/json_2_grpc.proto" />
+        <option value="$PROJECT_DIR$/src/main/java/witlab/sf05/v1/server/Json2GrpcServiceImpl.java" />
+        <option value="$PROJECT_DIR$/02_proxy/docker-compose.yml" />
+        <option value="$PROJECT_DIR$/02_proxy/envoy-config.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/witlab/sf05/v1/client/Json2GrpcClient.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="08_grpc_json_transcode" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="08_grpc_json_transcode" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="2004" />
+    <option name="y" value="98" />
+    <option name="width" value="982" />
+    <option name="height" value="576" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="08_grpc_json_transcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="08_grpc_json_transcode" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="08_grpc_json_transcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="08_grpc_json_transcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="08_grpc_json_transcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="08_grpc_json_transcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="08_grpc_json_transcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="08_grpc_json_transcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="08_grpc_json_transcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="08_grpc_json_transcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="v1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="08_grpc_json_transcode" type="b2602c69:ProjectViewProjectNode" />
+              <item name="08_grpc_json_transcode" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="v1" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\workspace\19_microservice\03_workspace\hands-on\sf05\08_grpc_json_transcode\src\main\resources" />
+      <recent name="C:\workspace\18_service_fabric\03_workspace\hands-on\sf05\08_grpc_json_transcode" />
+      <recent name="C:\workspace\18_service_fabric\03_workspace\hands-on\sf05\08_grpc_json_transcode\src\main\resources" />
+      <recent name="C:\workspace\18_service_fabric\03_workspace\hands-on\sf05\07_grpc_json_transcode\src\main\proto" />
+      <recent name="C:\workspace\18_service_fabric\03_workspace\hands-on\sf03\src\main\java\com\wistron\servicefabric\blog" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="witlab.sf05.v1.client" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\workspace\19_microservice\03_workspace\hands-on\sf05\08_grpc_json_transcode\target\protoc-plugins" />
+      <recent name="C:\workspace\18_service_fabric\03_workspace\hands-on\sf05\08_grpc_json_transcode\02_proxy" />
+      <recent name="C:\workspace\18_service_fabric\03_workspace\hands-on\sf05\08_grpc_json_transcode\01_googe_api" />
+      <recent name="C:\workspace\18_service_fabric\03_workspace\hands-on\sf05\08_grpc_json_transcode\proxy" />
+      <recent name="C:\workspace\18_service_fabric\03_workspace\hands-on\sf05\07_grpc_json_transcode\src\main\proto" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0ae78afc-3cc2-46df-9033-d19cf4d47326" name="Default Changelist" comment="" />
+      <created>1563170689394</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1563170689394</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="TestMerge_eraseFields - 2019.07.27 at 09h 26m 46s.xml">
+      <configuration name="TestMerge.eraseFields" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="2004" y="98" width="982" height="576" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.61904764" visible="true" weight="0.30911064" />
+      <window_info id="Structure" order="1" sideWeight="0.50083196" side_tool="true" weight="0.20522387" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" sideWeight="0.3809524" side_tool="true" weight="0.20522387" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3289689" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49946696" weight="0.44695258" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.32606438" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32779455" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.45794392" />
+      <window_info anchor="bottom" id="Event Log" order="8" sideWeight="0.50053304" side_tool="true" weight="0.26272067" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3281412" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" show_stripe_button="false" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.1724512" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.name" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/com/google/protobuf/protobuf-java-util/3.8.0/protobuf-java-util-3.8.0-sources.jar!/com/google/protobuf/util/FieldMaskTree.java</url>
+          <line>217</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/protobuf/protobuf-java/3.8.0/protobuf-java-3.8.0-sources.jar!/com/google/protobuf/GeneratedMessageV3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="78" column="22" selection-start-line="78" selection-start-column="22" selection-end-line="78" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/protobuf/java/com/wistron/witlab/reservation/v1/Reservation.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/protobuf/protobuf-java/3.8.0/protobuf-java-3.8.0-sources.jar!/com/google/protobuf/FieldMask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="259" column="47" selection-start-line="259" selection-start-column="29" selection-end-line="259" selection-end-column="47" />
+          <folding>
+            <element signature="e#9467#9468#0" expanded="true" />
+            <element signature="e#9490#9491#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/protobuf/protobuf-java/3.8.0/protobuf-java-3.8.0-sources.jar!/com/google/protobuf/ProtocolStringList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="41" column="56" lean-forward="true" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/protobuf/protobuf-java-util/3.8.0/protobuf-java-util-3.8.0-sources.jar!/com/google/protobuf/util/FieldMaskUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="449">
+          <caret line="352" column="21" selection-start-line="352" selection-start-column="8" selection-end-line="352" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/protobuf/protobuf-java-util/3.8.0/protobuf-java-util-3.8.0-sources.jar!/com/google/protobuf/util/FieldMaskTree.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="283" column="23" selection-start-line="283" selection-start-column="12" selection-end-line="283" selection-end-column="23" />
+          <folding>
+            <element signature="e#3214#3215#0" expanded="true" />
+            <element signature="e#3248#3249#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Zulu/zulu-8/src.zip!/java/util/stream/Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="168" column="14" selection-start-line="168" selection-start-column="14" selection-end-line="168" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/protobuf/protobuf-java/3.8.0/protobuf-java-3.8.0-sources.jar!/com/google/protobuf/Timestamp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="189" column="23" selection-start-line="189" selection-start-column="23" selection-end-line="189" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Zulu/zulu-8/src.zip!/java/util/stream/BaseStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="73" column="16" selection-start-line="73" selection-start-column="16" selection-end-line="73" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/google/protobuf/protobuf-java-util/3.8.0/protobuf-java-util-3.8.0-sources.jar!/com/google/protobuf/util/TimeUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="41" column="58" selection-start-line="41" selection-start-column="48" selection-end-line="41" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/grpc/grpc-core/1.22.1/grpc-core-1.22.1.jar!/io/grpc/internal/SerializingExecutor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="107">
+          <caret line="68" column="16" selection-start-line="68" selection-start-column="16" selection-end-line="68" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/grpc/grpc-core/1.22.1/grpc-core-1.22.1.jar!/io/grpc/internal/ContextRunnable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/grpc/grpc-core/1.22.1/grpc-core-1.22.1.jar!/io/grpc/internal/ServerImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="803">
+          <caret line="452" selection-start-line="452" selection-end-line="452" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Zulu/zulu-8/jre/lib/rt.jar!/sun/nio/ch/SocketDispatcher.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/grpc/grpc-core/1.22.1/grpc-core-1.22.1.jar!/io/grpc/internal/ServerCallImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="274" selection-start-line="274" selection-end-line="274" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/grpc/grpc-core/1.22.1/grpc-core-1.22.1-sources.jar!/io/grpc/internal/ServerCallImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="291">
+          <caret line="332" selection-start-line="332" selection-end-line="332" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Zulu/zulu-8/src.zip!/java/lang/Throwable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="256">
+          <caret line="632" column="16" selection-start-line="632" selection-start-column="16" selection-end-line="632" selection-end-column="16" />
+          <folding>
+            <element signature="e#27219#27220#0" expanded="true" />
+            <element signature="e#27262#27263#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/target/generated-sources/protobuf/grpc-java/com/wistron/witlab/reservation/v1/ReservationServiceGrpc.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wistron/greet/client/GreetClient.java" />
+    <entry file="jar://C:/Program Files/Zulu/zulu-8/src.zip!/java/util/function/Supplier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="40" column="16" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wistron/witlab/reservation/server/MemReservationRepo.java" />
+    <entry file="file://$PROJECT_DIR$/01_googe_api/google/ads/googleads/v1/enums/slot.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="34" column="45" lean-forward="true" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_googe_api/google/datastore/v1/datastore.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2074">
+          <caret line="122" column="11" selection-start-line="122" selection-start-column="7" selection-end-line="122" selection-end-column="11" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_googe_api/google/datastore/admin/v1/datastore_admin.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2040">
+          <caret line="120" column="49" lean-forward="true" selection-start-line="120" selection-start-column="49" selection-end-line="120" selection-end-column="49" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_googe_api/google/longrunning/operations.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="164" column="29" selection-start-line="164" selection-start-column="8" selection-end-line="164" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wistron/witlab/reservation/server/ReservationRepo.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/proto/grpc_to_rest.proto" />
+    <entry file="file://$PROJECT_DIR$/src/main/proto/reservation_service.proto" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wistron/witlab/reservation/client/ReservationClient.java" />
+    <entry file="file://$PROJECT_DIR$/docker-compose.bak.yml" />
+    <entry file="file://$PROJECT_DIR$/02_proxy/run-envoy-docker.txt" />
+    <entry file="file://$PROJECT_DIR$/01_googe_api/google/api/httpbody.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties" />
+    <entry file="file://$PROJECT_DIR$/01_googe_api/google/api/annotations.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="563">
+          <caret line="29" column="10" selection-start-line="29" selection-start-column="2" selection-end-line="29" selection-end-column="10" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/witlab/sf05/v1/utils/PrintFileDescriptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="42" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_PLUGINS_DIR$/protobuf-jetbrains-plugin/lib/protobuf-java-3.6.1-sources.jar!/google/protobuf/field_mask.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3774">
+          <caret line="250" column="23" selection-start-line="250" selection-start-column="18" selection-end-line="250" selection-end-column="23" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_googe_api/google/api/http.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3366">
+          <caret line="211" column="52" selection-start-line="210" selection-start-column="7" selection-end-line="211" selection-end-column="52" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_googe_api/google/streetview/publish/v1/streetview_publish.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_googe_api/google/pubsub/v1/pubsub.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/witlab/sf05/v1/server/Json2GrpcServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="26" column="25" selection-start-line="26" selection-start-column="25" selection-end-line="26" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_web/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/03_web/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="14" selection-start-column="14" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/witlab/sf05/v1/server/Json2GrpcServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2635">
+          <caret line="173" column="5" selection-start-line="173" selection-start-column="5" selection-end-line="173" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#getMessage3#0;class#Json2GrpcServiceImpl#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/witlab/sf05/v1/server/Json2GrpcApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/proto/json_2_grpc.proto">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="18" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="18" />
+          <folding>
+            <element signature="n#GetMessage2Request#0;n#!!top" />
+            <element signature="n#SubMessage#0;n#!!top" />
+            <element signature="n#GetMessage2Response#0;n#!!top" />
+            <element signature="n#AckMessage#0;n#!!top" />
+            <element signature="n#AckStatus#0;n#!!top" />
+            <element signature="n#GetMessage3Request#0;n#!!top" />
+            <element signature="n#GetMessage3Response#0;n#!!top" />
+            <element signature="n#UpdateMessageRequest#0;n#!!top" />
+            <element signature="n#UpdateMessageResponse#0;n#!!top" />
+            <element signature="n#Message#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_proxy/docker-compose.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/witlab/sf05/v1/client/Json2GrpcClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/02_proxy/envoy-config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="782">
+          <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2244">
+          <caret line="132" column="58" selection-start-line="132" selection-start-column="43" selection-end-line="132" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>07_grpc_json_transcode</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

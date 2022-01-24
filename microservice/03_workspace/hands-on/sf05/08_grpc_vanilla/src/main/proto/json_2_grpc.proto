@@ -1,0 +1,148 @@
+syntax = "proto3";
+package witlab.sf05.v1;
+option java_multiple_files = true;
+option java_outer_classname = "Json2GrpcProto";
+option java_package = "witlab.sf05.v1";
+
+// The google well-known types
+import "google/protobuf/empty.proto";
+import "google/protobuf/timestamp.proto";
+import "google/protobuf/duration.proto";
+import "google/protobuf/field_mask.proto";
+
+service JsonToGrpc {
+    // gRPC: Unary #1
+    rpc GetMessage(GetMessageRequest) returns (GetMessageResponse) {}
+
+    // gRPC: Unary #2
+    rpc GetMessage2(GetMessage2Request) returns (GetMessage2Response) {}
+
+    // gRPC: Unary #3
+    rpc GetMessage3(GetMessage3Request) returns (GetMessage3Response) {}
+
+    // gRPC: Unary #4
+    rpc UpdateMessage(UpdateMessageRequest) returns (UpdateMessageResponse) {}
+
+    // gRPC: Unary #5
+    rpc Update2Message(UpdateMessage2Request) returns (UpdateMessage2Response) {}
+
+    // gRPC: Unary #6
+    rpc PostMessage(PostMessageRequest) returns (PostMessageResponse) {}
+}
+
+// *** 1. GetMessage() ***
+message GetMessageRequest {
+    string name = 1; // Mapped to URL path.
+}
+
+message GetMessageResponse {
+    string text = 1; // The resource content.
+}
+
+// *** 2. GetMessage2() ***
+message GetMessage2Request {
+    string message_id = 1;                        // Mapped to URL path.
+    int64 revision = 2;                           // Mapped to URL query parameter `revision`.
+    SubMessage sub = 3;                           // Mapped to URL query parameter `sub.subfield`.
+}
+
+message SubMessage {
+    string subfield = 1;
+}
+
+message GetMessage2Response {
+    string message_id = 1; // Mapped to URL path.
+    int64 revision = 2;    // Mapped to URL query parameter `revision`.
+    SubMessage sub = 3;    // Mapped to URL query parameter `sub.subfield`.
+    AckMessage ack = 4;
+}
+
+message AckMessage {
+    string task_id = 1; // random uuid from server
+    AckStatus status = 2;
+
+}
+
+enum AckStatus {
+    UNKNOWN = 0;
+    OK = 1;
+    ERROR = 2;
+}
+
+// *** 3. GetMessage3() ***
+message GetMessage3Request {
+    string message_id = 1;
+    string user_id = 2;
+}
+
+message GetMessage3Response {
+    string message_id = 1;
+    string user_id = 2;
+    AckMessage ack = 3;
+}
+
+// *** 4. UpdateMessage() ***
+message UpdateMessageRequest {
+    string message_id = 1;          // mapped to the URL
+    Message message = 2;            // mapped to the body
+}
+
+message UpdateMessageResponse {
+    string message_id = 1;          // mapped to the URL
+    Message message = 2;            // mapped to the body
+    AckMessage ack = 3;
+}
+
+message Message {
+    google.protobuf.FieldMask update_mask = 1;
+    string text = 2; // The resource content.
+}
+
+// *** 5. UpdateMessage2() ***
+message UpdateMessage2Request {
+    string message_id = 1;                         // mapped to the URL
+    google.protobuf.FieldMask update_mask = 2;     // mapped to the body
+    Message2 message = 3;                           // mapped to the body
+}
+
+message UpdateMessage2Response {
+    string message_id = 1;
+    google.protobuf.FieldMask update_mask = 2;
+    Message2 message =  3;
+    AckMessage ack = 4;
+}
+
+message Message2 {
+    string field_str = 1;
+    int32 field_int = 2;
+    float field_float = 3;
+    bool field_bool = 4;
+}
+
+// *** 6. PostMessage() ***
+message PostMessageRequest {
+    EnumProgress progress = 1;
+    map<string, string> metadata = 2;
+    repeated Message messages = 3;
+    google.protobuf.Timestamp start_date = 4;
+    google.protobuf.Duration duration = 5;
+    google.protobuf.FieldMask update_mask = 6;
+}
+
+message PostMessageResponse {
+    EnumProgress progress = 1;
+    map<string, string> metadata = 2;
+    repeated Message messages = 3;
+    google.protobuf.Timestamp start_date = 4;
+    google.protobuf.Duration duration = 5;
+    google.protobuf.FieldMask update_mask = 6;
+    AckMessage ack = 7;
+}
+
+enum EnumProgress {
+    PROGRESS_UNKNOWN = 0;
+    STARTED = 1;
+    RUNNING = 2;
+    ABORTED = 3;
+    COMPLETED = 4;
+}
