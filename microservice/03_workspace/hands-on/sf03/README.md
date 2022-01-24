@@ -26,3 +26,18 @@ sf04 gRPC - protocol & API interface
 * gRPC的錯誤處理手法
 * gRPC的Deadline功能
 * gRPC錯誤處理與Deadline實作練習
+
+
+
+
+# What is an unary API?  
+![alt text](images/images1.JPG "Title Text")  
+
+* Unary API  
+* Server streaming: RPC API are a NEW kind API enabled thanks to HTTP/2  
+As for each RPC call, we have to define a “ Request ” message and a
+Response ” message  
+
+
+
+
