@@ -59,7 +59,7 @@ wistron.com/cicd-demo/
 docker push harbor-k8s.wistron.com/cicd-demo/
 10503120/${DOCKER_IMAGE_NAME}:${DOCKER_IMAGE_TAG}
 
-# Follow beloe command
+# Follow below command
 git add .
 git commit -m "change gitlab-ci.yml"
 git push
